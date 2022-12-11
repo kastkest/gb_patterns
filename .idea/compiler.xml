@@ -8,8 +8,8 @@
         <outputRelativeToContentRoot value="true" />
         <module name="lesson_1" />
         <module name="server" />
+        <module name="lesson_2" />
         <module name="common" />
-        <module name="gb_patterns" />
       </profile>
     </annotationProcessing>
   </component>

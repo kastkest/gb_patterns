@@ -6,9 +6,13 @@
 
   <groupId>com.github.kastkest.gb.patterns</groupId>
   <artifactId>gb_patterns</artifactId>
-  <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+    <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>lesson_2</module>
+    </modules>
 
-  <name>gb_patterns</name>
+    <name>gb_patterns</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
