@@ -31,8 +31,12 @@ public class HttpRequest {
 
         private HttpRequest httpRequest;
 
-        public Builder() {
+        private Builder() {
             this.httpRequest = new HttpRequest();
+        }
+
+        public static Builder createBuilder() {
+            return new Builder();
         }
 
         public Builder withMethod(String method) {
