@@ -25,6 +25,10 @@ public class RequestParser {
         while (!rawRequest.isEmpty()) {
             body.append(rawRequest.pollFirst());
         }
-        return new HttpRequest(method, url, headers, body.toString());
+        return new HttpRequest.Builder()
+                .withUrl(url)
+                .withMethod(method)
+                .withBody(String.valueOf(body))
+                .build();
     }
 }
