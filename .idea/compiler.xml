@@ -12,6 +12,7 @@
         <module name="structural_patterns" />
         <module name="common" />
         <module name="behavioral_patterns" />
+        <module name="arch" />
       </profile>
     </annotationProcessing>
   </component>
