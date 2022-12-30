@@ -11,6 +11,8 @@
     <modules>
         <module>lesson_2</module>
         <module>structural_patterns</module>
+        <module>behavioral_patterns</module>
+        <module>arch</module>
     </modules>
 
     <name>gb_patterns</name>
